@@ -1,0 +1,437 @@
+#homevideo {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    z-index: -100;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -8px;
+}
+
+
+/* NAVIGATION STYLING START */
+
+.homeMargin {
+    margin-bottom: -3px;
+}
+
+.fleetMargin {
+    margin-bottom: -5px;
+}
+
+.flyAndHelpMargin {
+    margin-bottom: -10px;
+}
+
+.contactMargin {
+    margin-bottom: -9px;
+}
+
+.loginMargin {
+    margin-bottom: -7px;
+}
+
+#homenav {
+    margin-top: -10px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    height: 50px;
+    width: 100%;
+    margin-left: -9px;
+}
+
+#homenav li {
+    /* list-style-type: none; */
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding-bottom:5px ; */
+    /* padding */
+}
+
+#homenav a {
+    float: left;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    /* padding-top: 10px; */
+}
+
+#homenav ul {
+    margin-top: 8px;
+}
+
+
+/* #homenav li:hover {
+background-color: #feffcd;
+}*/
+
+#homenav a:hover {
+    color: gold;
+}
+
+
+/* NAVIGATION STYLING END */
+
+#memLogin {
+    font-size: 15px;
+    padding-left: 65px;
+}
+
+
+/* CONTENT STYLING START */
+
+#cont {
+    padding-top: 440px;
+}
+
+.Welcome {
+    border: inset 5px lightgray;
+    margin-top: 40px;
+    border-radius: 1000px;
+}
+
+.Welcome h2 {
+    font-style: oblique;
+    font-size: 30pt;
+    text-align: center;
+    color: gray;
+    text-decoration: overline;
+}
+
+.Welcome p {
+    text-align: center;
+    font-size: 19pt;
+    color: skyblue;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.About {
+    padding-top: 50px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    border: dashed 3px;
+    border-radius: 60px 0px 60px 0px;
+    margin-right: 290px;
+    margin-left: 290px;
+    margin-bottom: 30px;
+}
+
+.About h1 {
+    color: lightgray;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.About p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.standard {
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+    margin-left: -70px;
+}
+
+.standard h1 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 76px;
+    color: coral;
+}
+
+.standard p {
+    font-size: 19pt;
+    text-align: center;
+    margin-left: 466px;
+}
+
+.Safety {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.Safety h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: skyblue;
+    font-size: 31px;
+}
+
+.Safety p {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.SMS {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.SMS h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(86, 56, 218);
+    font-size: 31px;
+}
+
+.SMS p {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.CRISIS {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.CRISIS h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(42, 148, 235);
+    font-size: 31px;
+}
+
+.CRISIS p {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.WHS {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.WHS h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(243, 210, 22);
+    font-size: 31px;
+}
+
+.WHS p {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.OS {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.OS h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #a1a1a1;
+    font-size: 31px;
+}
+
+.OS p {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.OS li {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.ASH {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.ASH h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffa702d3;
+    font-size: 31px;
+}
+
+.ASH p {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.ABS {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.ABS h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff5e5e;
+    font-size: 31px;
+}
+
+.ABS p {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.OPR {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.OPR h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 217, 255);
+    font-size: 31px;
+}
+
+.OPR p {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    margin-right: -30px;
+}
+
+.CR {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.CR h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 234, 46);
+    font-size: 31px;
+}
+
+.CR p {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    margin-right: -30px;
+}
+
+.RRR {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+}
+
+.RRR h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(116, 67, 250);
+    font-size: 31px;
+}
+
+.RRR p {
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    margin-right: -30px;
+}
+
+
+/* DONOT REMOVE THIS SECTION */
+
+#cont h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* #cont h2
+{  
+text-align: center;
+color:skyblue;
+}
+/* #cont p{  */
+
+
+}
+
+/* DONOT REMOVE THIS SECTION */
+
+/* CONTENT STYLING END */
+
+/* FOOTER STYLING START*/
+#cont p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: large;
+}
+.copyright {
+    color: white;
+    bottom: 0px;
+    float: left;
+    width: 101.2%;
+    margin-left: -0.56vw;
+    text-align: left;
+    background-color: #000000;
+}
+.copyright a {
+    color: gold;
+    font-weight: bold;
+}
+.copyright p {
+    margin-left: 6px;
+    margin-right: 6px;
+    text-align: justify;
+}
+
+/* FOOTER STYLING START*/
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,30 @@
+.FL {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-weight: 9000;
+}
+
+.FID {
+    margin-top: 20px;
+    margin-left: 490px;
+}
+
+.FDT {
+    width: 300px;
+    border-radius: 5px;
+    height: 25px;
+    outline: auto;
+    outline-color: rgb(228, 152, 91);
+}
+
+.BT {
+    padding-left: 600px;
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+
+#show {
+    color: whitesmoke;
+    ;
+}

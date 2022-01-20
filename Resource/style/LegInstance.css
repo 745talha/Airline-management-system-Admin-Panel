@@ -1,0 +1,293 @@
+.homeimage{
+    width:100%;  
+   position:absolute;
+   object-fit: cover;
+   /* margin-left: -8px;
+   margin-top: -8px; */
+   /* margin-right: -8px; */
+   height:100%;
+   z-index: -100;
+}
+
+#homenav {
+    margin-top: 15vh;
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    /* height:fit-content; */
+    width:fit-content;
+    margin-left: -9px;
+    
+  }
+  #homenav li{
+     list-style-type: none;  
+     /* display: inline-block;  */
+      /* padding-left: 30px;
+      padding-right:30px;
+       padding-bottom:5px ; */
+       padding-bottom:20px; ;
+       padding-top: 10px;
+       margin-left:-25px;
+       padding-right: 10px;
+  }
+
+#homenav a {
+    /* float: left; */
+    color:white;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+   /* padding-top: 10px;  */
+  }
+  #homenav a:hover{
+      color:gold;
+  }
+
+  #title{
+      
+    position: absolute;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 15px;
+    /* margin-top: -10px; */
+    margin-left: 47vw;
+   color:white;
+    text-decoration: underline white; 
+    animation: title 1s  ease-in-out infinite alternate;
+
+   
+  }
+  
+
+@keyframes title {
+  from {
+    text-shadow: 0 0 30px #FFFAE4;
+  }
+  
+  to {
+    color: #e4e3e3;
+    text-shadow:  0 0 4px #b1b1b1;
+  }
+}
+
+
+
+#formContainer{
+  background-color: rgba(0,0,0,.5);
+  position:absolute;
+  margin-left: 30vw;
+  margin-top:20vh;
+  width:50%;
+  padding-left: 55px;;
+  border-radius: 10px;
+}
+
+.inputbox {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 50px;
+
+}
+.inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:250px;
+  height: 50px;
+  /* width: 100%; */
+  border: 2px solid rgb(255, 255, 255);
+  background-color: white;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.inputbox:last-child {
+  margin-bottom: 0;
+}
+.inputbox span {
+  position: absolute;
+  color:rgb(19, 18, 18);
+  top: 14px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.inputbox input:focus ~ span,
+.inputbox input:valid ~ span {
+  transform: translate(-13px, -36px);
+  font-size: 1em;
+  color:white;
+  font-weight: bolder;
+}
+
+#departureSpan{
+  /* transition: 0.6s; */
+  margin-top: -25px;
+  margin-left: 10px;
+  color:white;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#arrivalSpan{
+  /* transition: 0.6s; */
+  margin-top: -25px;
+  margin-left: 10px;
+  color:white;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.form-row{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+#departureDate{
+  color:transparent;
+}
+#arrivalDate{
+  color:transparent;
+}
+/* #arivalPlace{
+  width:250px;
+  height: 50px;
+  background-color:transparent;
+  outline:white solid 2px;
+  font-family: sans-serif;
+   font-weight: bold; 
+  font-size: 1em;
+  text-align: justify;
+  padding-left: 10px;
+} */
+/* .datepicker{
+  width:250px;
+  height: 49px;
+  background-color: transparent;
+  outline: solid 2px white;
+  border-radius: 10px;
+  border:none;
+  /* text-align: center;
+  font-weight: bold; */
+  /* font-size: 1em; */
+  /* transition: 0.6s; */
+  /* font-family: sans-serif;
+  font-weight: bold; */
+  /* text-align:center; */
+  /* padding-left:20px;
+
+
+}  */
+/* .datepicker{
+  border: 1px solid #dadada;
+} */
+
+/* .datepicker:focus{
+  background-color: white;
+  outline:none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+} */
+
+
+/* .timePicker{
+  width:220px;
+  height:38px;
+  outline: solid 2px white;
+  border-radius: 4px;
+  background-color: transparent;
+  border:none;
+  padding-bottom: 20px;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+  font-weight: bold;
+  /* text-align:center; */
+  /* padding-left: 20px;
+  padding-top: 20px;} */
+
+
+
+/* #flightDate{
+  color:white;
+  font-size: 1em;
+  transition: 0.6s;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align:center;
+} */
+
+/* #date::placeholder{ 
+  padding-left:20px;
+  text-align: left;
+  color:black;
+   visibility: hidden;
+  color:transparent;
+}  */
+
+
+/* 
+.form-row:last-child{
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+} */
+
+
+#arrivalDate,#departureDate{
+  margin-top:-2px;
+  height:42px;
+  margin-left: 14px;
+}
+#arrivalDate + span,#departureDate + span{
+  margin-top: -6px;
+  margin-left: 14px;
+}
+#last{
+  margin-bottom:15px;
+}
+#submitBtn{
+  background-color: white;
+  float:left;
+  margin-left:450px;
+  width:100px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: large;
+  border:none;
+  outline:none;
+  /* border:2px solid black; */
+  /* margin-top: -6px; */
+}
+
+
+#submitBtn:hover{
+  box-shadow:0 0 2px 2px #9ecaed; 
+}
+
+#submitBtn:active{
+  color:#0468b9;
+  /* outline:1.5px solid #032038; */
+  /* color:white; */
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  /* box-shadow: 3px 2px 5px 4px #0ff; */
+  box-shadow:0 0 5px 5px #d3e9fa; 
+  /* 0 0 100px 60px #f0f,
+  0 0 140px 90px #0ff */
+  outline:none;
+
+}
+
+/* #submitBtn:active{
+  background: linear-gradient();
+  outline:1.5px solid #032038;
+  text-shadow: 1px 1px 2px  #9ecaed;
+  box-shadow: 3px 3px 3px 3px 3px #0687f1;
+} */

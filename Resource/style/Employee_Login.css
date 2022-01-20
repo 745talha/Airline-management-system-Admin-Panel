@@ -1,0 +1,36 @@
+.ELH {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 90px;
+    font-weight: 9000;
+}
+
+#cont {
+    padding-top: 10px;
+    border: inset 5px rgb(228, 152, 91);
+    margin-top: 50px;
+    border-radius: -600px;
+}
+
+.IDT {
+    width: 300px;
+    border-radius: 5px;
+    height: 25px;
+    outline: auto;
+    outline-color: rgb(228, 152, 91);
+}
+
+.EID {
+    margin-top: 20px;
+    margin-left: 490px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.BT {
+    padding-left: 600px;
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
