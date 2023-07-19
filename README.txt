@@ -1,8 +1,4 @@
-Work and you’ll get what you need; work harder and you’ll get what you want. (Prabakaran Thirumalai)
-
-Home + Logins + Flight Leg  ---> Saad Ali(FA19-BCS-079)
-AddFlight + Leg Instance + Employee Detail+CreateEmployeeAccount --->  Muhammad Talha Sharif(FA19-BCS-064)
-Customer Detail + Aircraft + Airport --->  Farhan Tariq(FA19-BCS-070)
+Work and you’ll get what you need; work harder and you’ll get what you want.
 
 
 Login:
